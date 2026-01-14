@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fabian Marin | Computing Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="dot"></span>
+        <span>Fabian Marin</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="glass hero-card reveal">
+          <div class="kicker">Computing Portfolio</div>
+          <h1 class="h-title">Hi, I’m Fabian Marin</h1>
+          <p class="h-sub">
+            I’m a Computing student at West Suffolk College with an ICT qualification and a Level 3 Computing qualification.
+            I’m working towards a career in IT — with a focus on cyber security — and I enjoy hardware-based projects as well
+            as building creative coursework solutions.
+          </p>
+
+          <div class="badges">
+            <span class="badge">Cyber Security (Goal)</span>
+            <span class="badge">Hardware Enthusiast</span>
+            <span class="badge">Python (Strong)</span>
+            <span class="badge">HTML (Basic)</span>
+          </div>
+
+          <div class="actions">
+            <a class="btn" href="projects.html">View Projects →</a>
+            <a class="btn secondary" href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <aside class="glass side-card reveal">
+          <h3>Quick Snapshot</h3>
+          <p>
+            Studied at West Suffolk College for around 3 years. Strong experience with Python, building practical projects for college.
+            Currently working part-time while prioritising my studies, and looking for IT work experience.
+          </p>
+
+          <div class="grid" style="margin-top:12px;">
+            <div class="card glass">
+              <h4>Current Focus</h4>
+              <p>
+                Building confidence in cyber security while continuing to improve through hands-on hardware and programming.
+              </p>
+            </div>
+            <div class="card glass">
+              <h4>Looking For</h4>
+              <p>
+                Work experience in IT (support, systems, networking, or anything that helps me progress towards cyber security).
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="kicker reveal">Featured Projects</div>
+      <div class="grid cols-3">
+        <article class="glass card reveal">
+          <h4>Christmas Calendar (College Project)</h4>
+          <p>
+            A creative coursework project designed to practise planning, logic, and clean structure.
+            Add features, screenshots, and what you learned later.
+          </p>
+        </article>
+        <article class="glass card reveal">
+          <h4>Tamagotchi Replica (College Project)</h4>
+          <p>
+            A replica-style interactive project focused on state, logic, and user interaction.
+            Add gameplay features and improvements later.
+          </p>
+        </article>
+        <article class="glass card reveal">
+          <h4>Cyber / Hardware Portfolio (Growing)</h4>
+          <p>
+            A space to document cyber learning, labs, scripts, and hardware work.
+            Add write-ups and evidence as you go.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="glass hero-card reveal">
+        <div class="kicker">What’s inside</div>
+        <h2 style="margin:0 0 10px;">Projects, skills, and experience — kept simple</h2>
+        <p class="h-sub" style="margin:0;">
+          This site is designed to stay clean and professional: glass cards, subtle movement, and clear sections.
+          You can add screenshots, GitHub links, and a CV when you’re ready.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        © <span id="year"></span> Fabian Marin • Built with HTML/CSS/JS
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

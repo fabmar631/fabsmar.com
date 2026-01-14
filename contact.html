@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Fabian Marin</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span><span>Fabian Marin</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="glass hero-card reveal">
+      <div class="kicker">Contact</div>
+      <h1 class="page-title">Let’s talk</h1>
+      <p class="page-sub">
+        If you’d like to contact me about IT work experience or opportunities, feel free to email or call.
+        You can also use the form to send a message (this form can be connected to a service later).
+      </p>
+    </div>
+
+    <section class="section" style="padding-top:18px;">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap:14px;">
+        <div class="glass card reveal">
+          <h4>Contact details</h4>
+          <p>
+            Email: <a href="mailto:fabmar631@gmail.com">fabmar631@gmail.com</a><br/>
+            Phone: <a href="tel:07737733122">07737 733122</a><br/>
+            GitHub: <a href="#">github.com/yourusername</a><br/>
+            LinkedIn: <a href="#">linkedin.com/in/yourprofile</a>
+          </p>
+          <div class="actions" style="margin-top:12px;">
+            <a class="btn" href="mailto:fabmar631@gmail.com">Email me →</a>
+            <a class="btn secondary" href="projects.html">View projects</a>
+          </div>
+        </div>
+
+        <form class="glass card reveal" onsubmit="event.preventDefault(); alert('Form placeholder — connect later!');">
+          <h4>Send a message</h4>
+          <div style="display:grid; gap:10px; margin-top:10px;">
+            <input class="field" required placeholder="Your name">
+            <input class="field" required type="email" placeholder="Your email">
+            <textarea class="field" required rows="4" placeholder="Your message" style="resize:vertical;"></textarea>
+            <button class="btn" type="submit">Send →</button>
+          </div>
+          <p style="margin:12px 0 0; color: rgba(255,255,255,0.55); font-size:13px; line-height:1.5;">
+            Tip: Later you can connect this form using a free service like Formspree, or your own backend.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
